@@ -1,14 +1,21 @@
-# Expo Router Example
+#Blachy app
+- registration system with token auth
+- adding comments
+- option for guests to add comments
+- adding images
+- claiming plates and setting custom message
+- voting system
+- reporting system
+- moderation panel to delete users, approve claims, reset flags from app level
+- light/dark theme
+- multi language support
+- qr system [todo]
+- notification system [todo]
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+##technology used
+- expo (+expo router)
+- mongodb (mongoose)
+- nodejs (express)
+- docker
 
-## 🚀 How to use
-
-```sh
-npx create-expo-app -e with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+working time: august - october

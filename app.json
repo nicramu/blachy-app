@@ -5,9 +5,36 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-localization",
+      ["expo-build-properties", {
+        "android": {
+          "usesCleartextTraffic": true
+        }
+      }]
     ],
-    "name": "blachy2",
-    "slug": "blachy2"
+    "name": "blachy",
+    "slug": "blachy",
+    "splash": {
+      "image": "./styles/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "icon": "./styles/icon.png",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./styles/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.blachy"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "82e690b4-53a8-490c-81c0-5b8b9d2c6bbb"
+      }
+    }
   }
 }

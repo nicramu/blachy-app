@@ -8,7 +8,16 @@ npm-debug.*
 *.key
 *.mobileprovision
 *.orig.*
+.env
 web-build/
+server/.env
+server/schemas/blocklist.json
+server/node_modules/
+server/cert
+server/docker-entrypoint-initdb.d
+server/docker-compose.yml
+server/Dockerfile
+pc-api-5418653564361569563-719-ba638c645e52.json
 
 # macOS
 .DS_Store
