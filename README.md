@@ -1,4 +1,8 @@
-#Blachy app
+# Blachy app
+http://146.59.14.8:4001/ <-- online version
+
+todo <-- play store
+
 - registration system with token auth
 - adding comments
 - option for guests to add comments
@@ -12,10 +16,10 @@
 - qr system [todo]
 - notification system [todo]
 
-##technology used
+## technology used
 - expo (+expo router)
 - mongodb (mongoose)
 - nodejs (express)
 - docker
 
-working time: august - october
+working time: august - october 2023
