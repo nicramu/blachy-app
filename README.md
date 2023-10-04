@@ -1,4 +1,6 @@
-# Blachy app
+
+# <img src="https://github.com/nicramu/blachy-app/assets/110261550/773821be-b335-4a32-b424-d232f0964c08" width="128"> Blachy app 
+
 http://146.59.14.8:4001/ <-- online version
 
 todo <-- play store
